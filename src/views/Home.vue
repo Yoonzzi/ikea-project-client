@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your IKEA-Project App"/>
+    <img id="ikea-logo" src="../assets/Ikea_logo.svg">
+    <HelloWorld msg="Welcome to Furnishing.help"/>
   </div>
 </template>
 
@@ -16,3 +16,9 @@ export default {
   }
 };
 </script>
+
+<style>
+#ikea-logo {
+  transform: rotate(180deg);
+}
+</style>
